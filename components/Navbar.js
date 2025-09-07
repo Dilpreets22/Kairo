@@ -30,6 +30,7 @@ const Navbar = () => {
             <Link className="mr-5 hover:text-gray-200" href='/about'>About</Link>
             <Link className="mr-5 hover:text-gray-200" href='/feature'>Features</Link>
             <Link className="mr-5 hover:text-gray-200" href='/contact'>Contact Us</Link>
+            <Link className="mr-5 hover:text-gray-200" href='/dashboard'>Dashboard</Link>
 
             {/* Transactions Link */}
             {user ? (
