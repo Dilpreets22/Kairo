@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 export default function FinancialPulse() {
   // Local state for score (default 0)
   const [score, setScore] = useState(0);
-
+{/* 
   useEffect(() => {
     async function fetchScore() {
       try {
@@ -24,7 +24,7 @@ export default function FinancialPulse() {
 
     return () => clearInterval(interval);
   }, []);
-
+*/}
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-2xl p-6">
       <div className="flex justify-between items-center mb-2">
